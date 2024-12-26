@@ -26,7 +26,7 @@ const Headermain = () => {
 							<img
 								src={profilePic}
 								alt="Profile"
-								className="rounded-circle profile"
+								className="rounded-circle profile profile_special"
 							/>
 						</button>
 					</div>
