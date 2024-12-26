@@ -7,3 +7,62 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	border-color: aqua;
 }
+.parent {
+	display: flex; /* Makes the parent a flex container */
+	justify-content: space-between; /* Optional: Adjust spacing */
+}
+
+.child {
+	flex: 1; /* Ensures all children have equal width */
+	text-align: center; /* Optional: Center text inside the child */
+	padding: 10px; /* Optional: Add some padding */
+	border: 1px solid #ccc; /* Optional: Add a border to see the children clearly */
+	margin: 5px; /* Optional: Add spacing between children */
+}
+.child .col.align-items-start {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* Vertically center the content */
+	align-items: flex-start; /* Horizontally left-align the content */
+	height: 100%; /* Ensure the height of the container is consistent */
+	padding: 10px; /* Optional: Add some spacing */
+}
+
+.child .col.align-items-start {
+	display: flex;
+	flex-direction: column; /* Stack items vertically */
+	align-items: flex-start; /* Horizontally align items to the left */
+	gap: 8px; /* Add spacing between name and the row of logo+info */
+	padding: 10px; /* Optional: Add some padding */
+}
+
+.child .col.align-items-start .logo-info {
+	display: flex;
+	flex-direction: row; /* Arrange logo and info in a row */
+	align-items: center; /* Vertically align logo and info */
+	gap: 16px; /* Space between logo and info */
+}
+.card {
+	background-color: transparent; /* Remove the background color */
+	border: none; /* Optional: remove the border for a cleaner look */
+	height: 100%;
+}
+.card-header {
+	text-align: right;
+	background-color: transparent;
+	color: white;
+}
+.card-body {
+	/*align all left*/
+	text-align: left;
+	/*vertical align*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: transparent;
+	color: white;
+}
+.card-footer {
+	color: transparent;
+	background-color: transparent;
+}
