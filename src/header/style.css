@@ -223,7 +223,12 @@
 	height: 3em;
 	padding: 10%;
 	background-color: rgba(0, 0, 0, 0.5);
+	color: transparent;
 }
 .profile-container {
 	padding: 0.3%;
+}
+.profile_special {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
 }

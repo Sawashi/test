@@ -1,11 +1,9 @@
 .cardInfo {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 20px;
 	border-radius: 10px;
 	background-color: #020c20;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	border-color: aqua;
+	margin: 2%;
 }
 .parent {
 	display: flex; /* Makes the parent a flex container */
@@ -15,9 +13,6 @@
 .child {
 	flex: 1; /* Ensures all children have equal width */
 	text-align: center; /* Optional: Center text inside the child */
-	padding: 10px; /* Optional: Add some padding */
-	border: 1px solid #ccc; /* Optional: Add a border to see the children clearly */
-	margin: 5px; /* Optional: Add spacing between children */
 }
 .child .col.align-items-start {
 	display: flex;
@@ -65,4 +60,23 @@
 .card-footer {
 	color: transparent;
 	background-color: transparent;
+}
+.inline_box {
+	display: inline-block;
+}
+
+.profile {
+	background-color: white;
+	border: 3px solid white;
+	width: 10rem;
+	height: 10rem;
+}
+.dimText {
+	color: #6c757d;
+}
+.col_border {
+	border: 1px solid #171b2e;
+}
+.row {
+	padding: 0;
 }
