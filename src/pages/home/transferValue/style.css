@@ -1,0 +1,21 @@
+.twoSide {
+	padding: 5%;
+	height: 5em;
+}
+.rightSide {
+	text-align: right;
+}
+.logo_mini {
+	width: 3em;
+	height: 3em;
+}
+.section_header {
+	text-align: left;
+	font-weight: bold;
+	font-size: larger;
+}
+.currentValue {
+	width: 2em;
+	height: 0.2em;
+	margin-right: 1em;
+}
