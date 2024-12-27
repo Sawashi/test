@@ -1,0 +1,26 @@
+.cardChart {
+	background: linear-gradient(to bottom right, #0a1f5566, #102c7366, #0c1a4c66);
+	width: 60%;
+	height: 80%;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 1em;
+	margin: 2%;
+}
+
+.responsive-logo {
+	width: 90%;
+	max-width: 50px;
+	height: auto;
+}
+
+.logo_expand {
+	max-width: 100%;
+}
+
+.chart-container {
+	width: 100%;
+	height: 5%;
+	max-width: 100%;
+	padding-top: 20px;
+}
