@@ -1,0 +1,44 @@
+.matchInfo {
+	background: linear-gradient(to bottom, #102c7366, #0a1f5566, #0c1a4c66);
+	margin: 2%;
+	border: 1px solid #09379447;
+	border-radius: 5px;
+	padding: 1%;
+}
+.single_match_info {
+	width: 10em;
+}
+.col-4 {
+	display: grid;
+	place-items: center;
+}
+.topScore {
+	border-radius: 5px 5px 0 0;
+
+	width: 1.5em;
+	text-align: center;
+}
+.bottomScore {
+	width: 1.5em;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+}
+.info_score {
+	display: flex;
+	justify-content: right;
+}
+.topLose {
+	background: linear-gradient(to bottom, #00289f, #001f7b, #091557);
+}
+.bottomLose {
+	background: linear-gradient(to bottom, #091557, #001f7b, #00289f);
+}
+.winScore {
+	background-color: #2187e5;
+	font-weight: bold;
+	color: white;
+}
+.drawScore {
+	background-color: #0038e0;
+	color: white;
+}
