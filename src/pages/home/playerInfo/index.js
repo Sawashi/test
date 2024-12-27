@@ -13,11 +13,11 @@ const PlayerInfo = () => {
 		<div className="cardInfo">
 			<div className="parent">
 				<div className="child">
-					<div class="card text-center">
-						<div class="card-header">
-							<i class="bi bi-star"></i>
+					<div className="card text-center">
+						<div className="card-header">
+							<i className="bi bi-star"></i>
 						</div>
-						<div class="card-body">
+						<div className="card-body">
 							<div className="row">
 								<div className="col-3">
 									<img
@@ -42,7 +42,7 @@ const PlayerInfo = () => {
 								</div>
 							</div>
 						</div>
-						<div class="card-footer">footer</div>
+						<div className="card-footer">footer</div>
 					</div>
 				</div>
 				<div className="child row">

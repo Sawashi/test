@@ -212,7 +212,6 @@ section {
 	font-size: 40px;
 	color: var(--text-color);
 	margin-bottom: 10px;
-	display: block;
 }
 
 .intro_sec .h_bg-image .block h3 {

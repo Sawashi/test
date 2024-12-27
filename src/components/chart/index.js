@@ -91,15 +91,17 @@ const PlayerChart = () => {
 		<div className="cardChart">
 			<div className="row">
 				{/* Render 8 images of Spain's flag */}
-				{Array(8).fill(
-					<div className="col">
-						<img
-							src={nationality}
-							alt="spain"
-							className="responsive-logo logo_expand"
-						/>
-					</div>
-				)}
+				{Array(8)
+					.fill()
+					.map((_, index) => (
+						<div className="col" key={index}>
+							<img
+								src={nationality}
+								alt="spain"
+								className="responsive-logo logo_expand"
+							/>
+						</div>
+					))}
 			</div>
 			<div className="chart-container">
 				{/* Insert the Chart here */}

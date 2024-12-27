@@ -18,26 +18,26 @@ const TransferValue = () => {
 								<PlayerChart></PlayerChart>
 								<div className="d-flex align-items-center justify-content-between">
 									<div className="dimText">
-										<text>
+										<span>
 											<img
 												src={BlueString}
 												alt="chelsea"
 												className="string currentValue"
 											/>
-										</text>
+										</span>
 										Current player value
 									</div>
 									<div className="rightSide dimText">11.6M $</div>
 								</div>
 								<div className="d-flex align-items-center justify-content-between">
 									<div className="dimText">
-										<text>
+										<span>
 											<img
 												src={RedString}
 												alt="chelsea"
 												className="string currentValue"
 											/>
-										</text>
+										</span>
 										Transfer fee
 									</div>
 									<div className="rightSide dimText">(Highest) 66M</div>
@@ -66,7 +66,7 @@ const TransferValue = () => {
 								</div>
 							</div>
 						</div>
-						<div className="rightSide">
+						<div className="rightSide greenNeonText">
 							<div>-</div>
 							<div>End of loan</div>
 						</div>
@@ -89,7 +89,7 @@ const TransferValue = () => {
 								</div>
 							</div>
 						</div>
-						<div className="rightSide">
+						<div className="rightSide greenNeonText">
 							<div>-</div>
 							<div>End of loan</div>
 						</div>
@@ -112,7 +112,7 @@ const TransferValue = () => {
 								</div>
 							</div>
 						</div>
-						<div className="rightSide">
+						<div className="rightSide greenNeonText">
 							<div>-</div>
 							<div>End of loan</div>
 						</div>
@@ -135,7 +135,7 @@ const TransferValue = () => {
 								</div>
 							</div>
 						</div>
-						<div className="rightSide">
+						<div className="rightSide greenNeonText">
 							<div>-</div>
 							<div>End of loan</div>
 						</div>
@@ -158,7 +158,7 @@ const TransferValue = () => {
 								</div>
 							</div>
 						</div>
-						<div className="rightSide">
+						<div className="rightSide greenNeonText">
 							<div>-</div>
 							<div>End of loan</div>
 						</div>
