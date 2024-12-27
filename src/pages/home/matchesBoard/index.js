@@ -3,14 +3,6 @@ import "./style.css";
 import SingleMatch from "../../../components/singleMatch";
 import matchData from "../../../assets/Source Images-Icons/matchList.json";
 const MatchesBoard = () => {
-	const matchDetails = {
-		dateTime: "1714219200",
-		matchStatus: "finished",
-		homeTeam: "UD Las Palmas",
-		awayTeam: "Girona FC",
-		homeTeamScore: 1,
-		awayTeamScore: 2,
-	};
 	const convertedMatchDetails = JSON.stringify(matchData.data.events);
 	const matchesToShow = JSON.parse(convertedMatchDetails);
 	console.log(matchesToShow);

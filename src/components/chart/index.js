@@ -15,7 +15,6 @@ import {
 } from "chart.js";
 import annotationPlugin from "chartjs-plugin-annotation";
 
-// Register Chart.js components and the annotation plugin
 ChartJS.register(
 	CategoryScale,
 	LinearScale,
@@ -28,40 +27,27 @@ ChartJS.register(
 );
 
 const PlayerChart = () => {
-	// Data for the chart
 	const data = {
-		labels: ["'10", "'13", "'14", "'16", "'17", "'19", "'20", "'22"], // X-axis labels
+		labels: ["'10", "'13", "'14", "'16", "'17", "'19", "'20", "'22"],
 		datasets: [
 			{
-				label: "Player Performance", // Dataset label
-				data: [0, 0, 43, 48, 52, 19, 0, 66, 20, 0], // Y-axis data points
-				fill: false, // Line fill
-				borderColor: "rgb(75, 192, 192)", // Line color
-				tension: 0.1, // Line smoothness
+				label: "Player Performance",
+				data: [0, 0, 43, 48, 52, 19, 0, 66, 20, 0],
+				fill: false,
+				borderColor: "rgb(75, 192, 192)",
+				tension: 0.1,
 			},
 		],
 	};
 
-	// Define the current value to display the horizontal line
 	const currentValue = 22;
 
-	// Chart options
 	const options = {
 		responsive: true,
-		maintainAspectRatio: false, // Ensure it doesn't stretch disproportionately
+		maintainAspectRatio: false,
 		scales: {
-			x: {
-				// title: {
-				// 	display: true,
-				// 	text: "Month",
-				// },
-			},
-			y: {
-				// title: {
-				// 	display: true,
-				// 	text: "Performance",
-				// },
-			},
+			x: {},
+			y: {},
 		},
 		plugins: {
 			annotation: {
@@ -70,7 +56,7 @@ const PlayerChart = () => {
 						type: "line",
 						yMin: currentValue,
 						yMax: currentValue,
-						borderColor: "red", // Line color
+						borderColor: "red",
 						borderWidth: 2,
 						label: {
 							enabled: true,
@@ -90,7 +76,6 @@ const PlayerChart = () => {
 	return (
 		<div className="cardChart">
 			<div className="row">
-				{/* Render 8 images of Spain's flag */}
 				{Array(8)
 					.fill()
 					.map((_, index) => (
@@ -104,7 +89,6 @@ const PlayerChart = () => {
 					))}
 			</div>
 			<div className="chart-container">
-				{/* Insert the Chart here */}
 				<Line data={data} options={options} />
 			</div>
 		</div>

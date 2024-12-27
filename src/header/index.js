@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Themetoggle from "../components/themetoggle";
 import logo from "../assets/Source Images-Icons/Icons/logo.png";
 import profilePic from "../assets/Source Images-Icons/Icons/profilePic.png";
+import ballPic from "../assets/Source Images-Icons/Icons/ball.png";
 const Headermain = () => {
 	const [isActive, setActive] = useState("false");
 
@@ -20,6 +21,10 @@ const Headermain = () => {
 				<div className="d-flex align-items-center justify-content-between ">
 					<div>
 						<img src={logo} alt="Logo" />
+						<button className="football_button">
+							<img src={ballPic} alt="Logo" className="ball_pic" />
+							FOOTBALL
+						</button>
 					</div>
 					<div className="profile-container">
 						<button className="btn btn-primary rounded-circle profile_btn">
