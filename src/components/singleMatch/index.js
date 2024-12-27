@@ -11,22 +11,15 @@ const SingleMatch = ({
 	awayTeamScore,
 }) => {
 	const convertDate = (inputTimestamp) => {
-		// Convert the input to a number
 		const timestamp = Number(inputTimestamp);
-
-		// Validate the timestamp
 		if (isNaN(timestamp)) {
 			throw new Error(
 				"Invalid timestamp: Input must be a valid number or numeric string."
 			);
 		}
-
-		// Convert the timestamp to milliseconds and create a Date object
 		const date = new Date(timestamp * 1000);
-
-		// Extract the day and month
-		const day = date.getUTCDate(); // For UTC time
-		const month = date.getUTCMonth() + 1; // Months are zero-based
+		const day = date.getUTCDate();
+		const month = date.getUTCMonth() + 1;
 
 		return day + "/" + month;
 	};
