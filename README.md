@@ -1,4 +1,12 @@
-# Author: Le Anh Kiet
-# Run the project
-  yarn
-  yarn start
+Author: Le Anh Kiet
+### Install packages.
+
+```bash
+    yarn
+```
+
+### Running the production server.
+
+```bash
+    yarn start
+```
