@@ -1,6 +1,9 @@
 Author: Le Anh Kiet
+
+Stack: Reactjs + bootstrap + reactjs-chart-2
 ### Documents:
 Demo: https://youtu.be/v3oMI3lFM2s
+
 Screenshots:
 
 ![Screenshot 2024-12-28 102326](https://github.com/user-attachments/assets/e437c871-d58e-4f4c-9dec-9d47b36659e7)
